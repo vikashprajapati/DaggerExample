@@ -7,3 +7,4 @@ shown a Car assembly example.
 - Field Injection
 - Method Injection
 - providing Interface instances using Provides and Bind annotation
+- Injecting value at runtime

@@ -2,6 +2,7 @@ package com.example.daggerexample.di;
 
 import com.example.daggerexample.model.Car;
 import com.example.daggerexample.model.DieselEngine;
+import com.example.daggerexample.model.ElectricEngine;
 import com.example.daggerexample.model.Engine;
 import com.example.daggerexample.model.PetrolEngine;
 import com.example.daggerexample.model.Rims;
@@ -15,9 +16,9 @@ import dagger.Provides;
 public class AssemblyModule {
 
     @Provides
-    public Car provideCar(PetrolEngine petrolEngine, Wheels wheels, Rims rims){
+    public Car provideCar(ElectricEngine electricEngine, Wheels wheels, Rims rims){
         return new Car(
-                petrolEngine,
+                electricEngine,
                 wheels,
                 rims
         );

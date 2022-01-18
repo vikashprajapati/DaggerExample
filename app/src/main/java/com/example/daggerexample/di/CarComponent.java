@@ -6,7 +6,9 @@ import com.example.daggerexample.MainActivity;
 import dagger.Component;
 
 @Component(modules = {
-    AssemblyModule.class
+        ElectricEngineModule.class,
+        PetrolEngineModule.class,
+        AssemblyModule.class,
 })
 public interface CarComponent {
     void inject(MainActivity mainActivity);
