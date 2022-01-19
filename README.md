@@ -7,4 +7,5 @@ shown a Car assembly example.
 - Field Injection
 - Method Injection
 - providing Interface instances using Provides and Bind annotation
-- Injecting value at runtime
+- Injecting values at runtime
+- Injecting values at runtime using @Component.Builder, @Named, @BindInstance annotations
